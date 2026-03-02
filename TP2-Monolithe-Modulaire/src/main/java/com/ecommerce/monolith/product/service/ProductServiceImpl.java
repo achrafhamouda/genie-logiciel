@@ -29,19 +29,17 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public ProductDTO createProduct(CreateProductRequest request) {
+    public ProductDTO createProduct(ProductRequest request) {
         Product product = mapper.toEntity(request);
-        Product saved = repository.save(product);
-        return mapper.toDTO(saved);
+        return mapper.toDTO(repository.save(product));
     }
 
     @Override
-    public ProductDTO updateProduct(Long id, CreateProductRequest request) {
+    public ProductDTO updateProduct(Long id, ProductRequest request) {
         Product product = repository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Product not found"));
         mapper.updateEntity(request, product);
-        Product updated = repository.save(product);
-        return mapper.toDTO(updated);
+        return mapper.toDTO(repository.save(product));
     }
 
     @Override

@@ -1,8 +1,9 @@
 package com.ecommerce.monolith.product.mapper;
 
-import com.ecommerce.monolith.product.dto.ProductDTO;
+import com.ecommerce.monolith.product.dto.*;
 import com.ecommerce.monolith.product.model.Product;
-import org.mapstruct.*;
+import org.mapstruct.Mapper;
+import org.mapstruct.MappingTarget;
 
 import java.util.List;
 
@@ -13,8 +14,8 @@ public interface ProductMapper {
 
 	List<ProductDTO> toDTOList(List<Product> products);
 
-	Product toEntity(CreateProductRequest request);
+	Product toEntity(ProductRequest request);
 
-	@Mapping(target = "id", ignore = true)
-	void updateEntity(CreateProductRequest request, @MappingTarget Product product);
+	void updateEntity(ProductRequest request,
+					  @MappingTarget Product product);
 }

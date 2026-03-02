@@ -28,7 +28,7 @@ public class Product {
 
     @NotNull
     @Positive
-    @Column(nullable = false)
+    @Column(nullable = false, precision = 10, scale = 2)
     private BigDecimal price;
 
     @NotNull
