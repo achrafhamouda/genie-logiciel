@@ -1,9 +1,9 @@
 <h1 align="center"> Génie Logiciel</h1>
 
 <p align="center">
-  <b style="color:#0A66C2;">
+  <span style="color:#1E90FF; font-weight:bold;">
     ENSA Béni Mellal – Filière IACS
-  </b>
+  </span>
 </p>
 
 ---
