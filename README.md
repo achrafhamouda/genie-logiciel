@@ -1,13 +1,16 @@
 <h1 align="center"> Génie Logiciel</h1>
+
 <p align="center">
-ENSA Béni Mellal – Filière IACS  
+  <b style="color:#0A66C2;">
+    ENSA Béni Mellal – Filière IACS
+  </b>
 </p>
 
 ---
 
-## 👋 À propos
+##  À propos
 
-Ce repository regroupe les Travaux Pratiques réalisés dans le module **Génie Logiciel**.
+Ce repository regroupe les différents Travaux Pratiques que j’ai réalisés dans le module **Génie Logiciel**.
 
 À travers ces projets, j’ai exploré l’évolution d’une application :
 
@@ -15,9 +18,11 @@ Ce repository regroupe les Travaux Pratiques réalisés dans le module **Génie 
 ➡️ 🏗️ Monolithe structuré  
 ➡️ 🌐 Architecture distribuée  
 
+L’objectif est de comprendre comment une application évolue vers une architecture plus scalable, mieux organisée et plus proche des environnements réels.
+
 ---
 
-## 📂 Les TPs
+## 📂 Les Travaux Pratiques
 
 ### 🔹 TP1 – Application Monolithique
 
@@ -28,15 +33,15 @@ Architecture en couches classique :
 - Repository  
 - Base de données  
 
-🎯 Objectif : comprendre l’organisation propre du code et la séparation des responsabilités.
+🎯 Objectif : comprendre la séparation des responsabilités et l’organisation propre du code.
 
 ---
 
 ### 🔹 TP2 – Monolithe Modulaire
 
-Amélioration de la structure avec une meilleure modularité.
+Amélioration du monolithe avec une structure plus claire et mieux organisée.
 
-🎯 Objectif : rendre l’application plus claire, maintenable et évolutive.
+🎯 Objectif : rendre l’application plus maintenable et mieux structurée.
 
 ---
 
@@ -53,24 +58,24 @@ Mise en place d’une architecture complète avec :
 
 🎯 Ce TP m’a permis de comprendre :
 
-- La répartition de charge  
-- L’utilisation d’un cache pour améliorer les performances  
-- La communication asynchrone via une message queue  
-- L’orchestration de plusieurs services  
+- La répartition de charge (load balancing)  
+- L’importance du cache pour améliorer les performances  
+- La communication asynchrone entre services  
+- L’orchestration de plusieurs conteneurs  
 
 ---
 
-## 🧠 Ce que j’ai appris
+##  Ce que j’ai appris
 
-✔ Différence entre monolithe et architecture distribuée  
-✔ Importance de la séparation des responsabilités  
-✔ Notions de scalabilité horizontale  
-✔ Cache et optimisation des performances  
-✔ Communication entre services  
+✔ Différence entre architecture monolithique et distribuée  
+✔ Importance de la modularité  
+✔ Concepts de scalabilité horizontale  
+✔ Utilisation d’un cache système  
+✔ Communication via message broker  
+✔ Orchestration avec Docker  
 
 ---
 
-## 👨‍💻 Auteur
 
 **Achraf Hamouda**  
 ENSA Béni Mellal – IACS  
