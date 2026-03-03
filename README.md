@@ -1,4 +1,4 @@
-<h1 align="center">🎓 Génie Logiciel</h1>
+<h1 align="center"> Génie Logiciel</h1>
 <p align="center">
 ENSA Béni Mellal – Filière IACS  
 </p>
