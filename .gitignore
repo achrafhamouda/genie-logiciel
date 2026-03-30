@@ -1,0 +1,55 @@
+# ==========================================
+# .gitignore — Genie Logiciel (TP1 TP2 TP3 TP4)
+# ==========================================
+
+# ── Spring Boot / Maven (TP1, TP2, TP4) ──
+target/
+*/target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+!.mvn/wrapper/maven-wrapper.jar
+
+# ── IDE IntelliJ ──
+.idea/
+**/.idea/
+*.iml
+*.iws
+*.ipr
+
+# ── IDE VS Code ──
+.vscode/
+**/.vscode/
+
+# ── IDE Eclipse ──
+.classpath
+.project
+.settings/
+
+# ── Node.js (TP3) ──
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ── Variables d'environnement ──
+.env
+.env.local
+.env.*.local
+
+# ── Logs ──
+*.log
+logs/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Docker volumes (données locales) ──
+data/
+mongo_data/
